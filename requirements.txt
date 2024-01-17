@@ -1,0 +1,13 @@
+gevent==23.7.0
+geventhttpclient==2.0.9
+urllib3
+argparse
+os
+json
+csv
+matplotlib
+itertools
+elastic-transport==8.4.0
+elasticsearch==8.7.0
+requests
+time
