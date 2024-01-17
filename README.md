@@ -55,7 +55,7 @@ V tomto příkladu skript zpracovává data z `data.json`, provádí agregaci ty
 
 ### Formát dat
 
-Data v vstupním JSON souboru mají formát národní pro služby databáze Oracle s některými úpravami. Hlavní klíče/parametry každého volání služby musí být první v pořadí ve souboru. Hodnoty hlavních klíčů jsou uloženy ve vnořeném poli. Pokud existuje více vnořených polí s hlavními klíči, každé z těchto polí bude prováděno jako samostatné volání. Tedy v příkladu volání uvedeném výše se pro první sadu dat provedou 3 samostatná volání služby.
+Data v vstupním JSON souboru mají formát totožný pro služby databáze Oracle s některými úpravami. Hlavní klíče/parametry každého volání služby musí být první v pořadí. Hodnoty hlavních klíčů jsou uloženy ve vnořeném poli. Pokud existuje více vnořených polí s hlavními klíči, každé z těchto polí bude prováděno jako samostatné volání. Tedy v příkladu volání uvedeném výše se pro první sadu dat provedou 3 samostatná volání služby.
 
 Příklad formátu dat:
 
